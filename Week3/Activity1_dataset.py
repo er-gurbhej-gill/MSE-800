@@ -1,5 +1,7 @@
 from ucimlrepo import fetch_ucirepo 
-  
+import pandas as pd
+
+pd.DataFrame({'A': [1, 2, 3]})
 # fetch dataset 
 iris = fetch_ucirepo(id=53) 
   
